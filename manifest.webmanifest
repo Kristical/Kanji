@@ -1,0 +1,30 @@
+{
+ "name": "Kanji Trainer",
+ "short_name": "Kanji",
+ "description": "1500 Kanji und Kana lernen mit Lektionen und Aufgaben",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#eef2ef",
+ "theme_color": "#2c3f9e",
+ "lang": "de",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
