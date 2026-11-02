@@ -1,5 +1,5 @@
 /* Kanji Trainer: Offline-Speicher. Bei neuen Dateien die Versionsnummer erhöhen. */
-var CACHE='kanji-trainer-v4';
+var CACHE='kanji-trainer-v5';
 var FILES=['./','index.html','manifest.webmanifest','icon-180.png','icon-192.png','icon-512.png'];
 self.addEventListener('install',function(e){
   e.waitUntil(caches.open(CACHE).then(function(c){return c.addAll(FILES)}).then(function(){return self.skipWaiting()}));
